@@ -22,50 +22,28 @@ public class Contacts {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-    public String getLastName() {
-        return lastName;
-    }
-
     public void setPhoneNumber(String  phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-    public String  getPhoneNumber() {
-        return phoneNumber;
     }
 
     public void setEmail(String emailID) {
         this.emailID = emailID;
     }
-    public String getEmail() {
-        return emailID;
-    }
 
     public void setAddress(String address) {
         this.address = address;
-    }
-    public String getAddress() {
-        return address;
     }
 
     public void setCity(String city) {
         this.city = city;
     }
-    public String getCity() {
-        return city;
-    }
 
     public void setState(String state) {
         this.state = state;
     }
-    public String getState() {
-        return state;
-    }
 
     public void setZip(String zipCode) {
         this.zipCode = zipCode;
-    }
-    public String getZip() {
-        return zipCode;
     }
 
 
