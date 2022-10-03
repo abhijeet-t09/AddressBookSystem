@@ -22,6 +22,10 @@ public class Contacts {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    public String getLastName() {
+        return lastName;
+    }
+
     public void setPhoneNumber(String  phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
@@ -57,6 +61,11 @@ public class Contacts {
                 " | City -> " + city +
                 " | State -> " + state +
                 " | Zip-code -> " + zipCode + "]";
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
     }
 
 
